@@ -78,6 +78,10 @@ article {
   text-transform: uppercase;
 }
 
+.company-name a {
+  text-decoration: none;
+}
+
 .company-name i {
   font-size: 0.9rem;
   font-family: Arial, sans-serif;
