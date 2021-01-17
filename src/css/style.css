@@ -130,11 +130,11 @@ ul.list {
   .cv-left h1,
   .cv-left h2,
   .cv-left h3,
-  .cv-left h4{
+  .cv-left h4 {
     font-size: 1.3rem;
   }
 
-  .cv-left ul{
+  .cv-left ul {
     line-height: 150%;
     padding-left: 25px;
   }
@@ -149,5 +149,29 @@ ul.list {
     max-width: 50%;
     margin: 20px auto;
   }
+}
 
+@media print {
+  body {
+    font-size: 15px;
+  }
+
+  .cv-left h1,
+  .cv-left h2,
+  .cv-left h3,
+  .cv-left h4 {
+    font-size: 1.3rem;
+    color: black;
+  }
+
+  .cv-left ul {
+    line-height: 150%;
+    padding-left: 25px;
+    color: black;
+  }
+
+  .contacts-block a {
+    color: black;
+    text-decoration: none;
+  }
 }
